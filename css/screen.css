@@ -1,7 +1,23 @@
 /*------------------------------------*\
   #FONTS
 \*------------------------------------*/
-
+@font-face {
+    font-family: "Clear Sans";
+    font-weight: 200;
+    src: url("../fonts/ClearSans-Light-Webfont.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Clear Sans";
+    font-weight: 400;
+    src: url("../fonts/ClearSans-Medium-webfont.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Clear Sans";
+    font-weight: 600;
+    src: url("../fonts/ClearSans-Regular-webfont.woff") format("woff");
+  }
 /*------------------------------------*\
   #GENERIC
 \*------------------------------------*/
@@ -11,28 +27,13 @@
     ---
     Global page styles + universal box-sizing:
 */
-@font-face {
-  font-family: "Clear Sans";
-  font-weight: 200;
-  src: url("../fonts/ClearSans-Light-Webfont.woff") format("woff");
-}
 
-@font-face {
-  font-family: "Clear Sans";
-  font-weight: 400;
-  src: url("../fonts/ClearSans-Medium-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Clear Sans";
-  font-weight: 600;
-  src: url("../fonts/ClearSans-Regular-webfont.woff") format("woff");
-}
 html {
   font-size: 18px;
   line-height: 32px;
   font-weight: 200;
   font-family: "Clear Sans", Helvetica, arial, sans-serif;
+  color: white;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -50,6 +51,7 @@ html {
  *
  * Customize the background color to match your design.
  */
+
 
 ::-moz-selection {
   background: #0053fb;
@@ -158,7 +160,7 @@ figcaption {
 hr {
   border: 0;
   height: 1px;
-  background: LightGrey;
+  background: lightgrey;
   margin: 0 0 24px;
 }
 
