@@ -11,11 +11,23 @@
     ---
     Global page styles + universal box-sizing:
 */
+@font-face {
+    font-family: "Clear Sans";
+    font-weight: 200;
+    src: url("../fonts/ClearSans-Light-Webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Clear Sans";
+    font-weight: 400;
+    src: url("../fonts/ClearSans-Medium-webfont.woff") format("woff");
+}
 
 html {
-    font-size: 16px;
-    line-height: 24px;
-    font-family: Helvetica, arial, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 200;
+    font-family: "Clear Sans", Helvetica, arial, sans-serif;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
