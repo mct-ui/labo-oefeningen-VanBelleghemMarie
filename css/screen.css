@@ -45,6 +45,13 @@ html {
   box-sizing: inherit;
 }
 
+@media (min-width: 768px) {
+    html {
+        font-size: 32px;
+        line-height: 1.6;
+    }
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -383,6 +390,28 @@ a:focus {
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
+
+/*
+    Component: Logo
+    ---
+    Website main logo
+*/
+
+.c-logo {
+    height: 32px;
+    display:flex;
+    align-items: center;
+}
+
+ .c-logo__symbol {
+    height: 100%;
+} 
+
+@media (min-width: 768px) {
+    .c-logo {
+        height: 32px;
+    }
+}
 
 /*------------------------------------*\
   #UTILITIES
